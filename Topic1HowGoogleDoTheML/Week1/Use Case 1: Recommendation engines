@@ -1,0 +1,69 @@
+Use Case 1: Recommendation engines
+If the use case was an ML problem....
+
+1) What is being predicted?
+- What's customers' interest.
+
+2) What data is needed?
+- The customer basic information(age, occupation)
+- The customer's previous choose/interest
+- Other similar customer's interest
+
+Now imagine the ML problem is a question of software:
+
+3) What is the API for the problem during prediction?
+- Input: Customer's ID.
+- Output: Customer's top 10 most likely intersts.
+
+4) Who will use this service? How are they doing it today?
+- Ecommerce platform.
+- Provide the most likely interst items in the app's home page.
+
+Lastly, cast it in the framework of a data problem. What are some key actions to collect, analyze, predict, and react to the data/predictions (different input features might require different actions)
+
+5) What data are we analyzing?
+- User's basic information and generate user tag
+- User's search history
+- Other users with same tag's decision
+
+6) What data are we predicting?
+- What items the user is interested.
+
+7) What data are we reacting to?
+- For every search and click data update in the database, we update the data, and perform ML.
+
+Use Case 2: Airticraft scheduling
+If the use case was an ML problem....
+
+1) What is being predicted?
+- The airticraft schedueling with highest density and lowest delay.
+
+2) What data is needed?
+- Past years airport schedule and the density/delay
+- Weather or incidence for past year.
+- Customer's feedback
+- Aircraft company benefit.
+
+Now imagine the ML problem is a question of software:
+
+3) What is the API for the problem during prediction?
+- Input : Date/Aircraft company
+- Output : 	Recommenation scheduled for certain airport and the aircraft company
+
+4) Who will use this service? How are they doing it today?
+- Aircraft company
+- They reference the history data choose how many tickets they will sell and how to arrange the aircraft.
+
+Lastly, cast it in the framework of a data problem. What are some key actions to collect, analyze, predict, and react to the data/predictions (different input features might require different actions)
+
+5) What data are we analyzing?
+- Past years airport schedule and the density/delay
+- Weather or incidence for past year.
+- Customer's feedback
+- Aircraft company benefit.
+
+6) What data are we predicting?
+- The max density and airplane number for a airport/aircraft company in certain date
+
+7) What data are we reacting to?
+- Weather change, incident situation's might affact the predict result, so we need to react.
